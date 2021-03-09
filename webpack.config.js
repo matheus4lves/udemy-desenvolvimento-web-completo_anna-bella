@@ -1,5 +1,12 @@
 const webpack = require('webpack');
 const path = require('path');
+const postcssPlugins = [
+    require('postcss-import'),
+    require('postcss-mixins'),
+    require('postcss-nested'),
+    require('postcss-simple-vars'),
+    require('autoprefixer')
+];
 
 module.exports = {
     entry: {
@@ -18,7 +25,9 @@ module.exports = {
 
     devServer: {
         contentBase: path.join(__dirname, 'app'),
-        watchContentBase: true,
+        before: function(app, server) {
+            server._watch('./app/**/*.html')
+        },
         index: 'index.html',
         hot: true,
         host: '0.0.0.0',
@@ -37,8 +46,12 @@ module.exports = {
             },
             {
                 test: /\.css$/i,
-                use: ["style-loader", "css-loader"],
-            }
+                use: ['style-loader', 'css-loader?url=false', {loader: 'postcss-loader', options: {postcssOptions: { plugins: postcssPlugins}}}],
+            },
+            {
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/resource',
+            },
         ]
     },
 
