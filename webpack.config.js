@@ -34,7 +34,7 @@ module.exports = {
         port: 9001,
         useLocalIp: true,
         open: {
-            app: ['brave-browser', '--incognito'],
+            app: ['/opt/firefox-84.0b4/firefox/firefox', '--private-window'],
         },
     },
 
