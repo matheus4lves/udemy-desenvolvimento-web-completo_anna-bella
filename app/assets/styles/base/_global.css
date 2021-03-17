@@ -1,0 +1,17 @@
+body {
+    background: $backgroundColor url("/assets/images/fundo.png");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer h4 {
+    text-align: center;
+}
