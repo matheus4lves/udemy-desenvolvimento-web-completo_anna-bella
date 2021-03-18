@@ -3,3 +3,5 @@
 @import "base/_global.css";
 @import "modules/_wrapper.css";
 @import "modules/_menu.css";
+@import "modules/_headline.css";
+@import "modules/_page-section.css";

@@ -1,0 +1,4 @@
+.page-section {
+  background-color: $contentBackgroundColor;
+  padding: 0.625rem;
+}
