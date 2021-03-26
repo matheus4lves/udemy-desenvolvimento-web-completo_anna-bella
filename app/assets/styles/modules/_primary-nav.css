@@ -1,0 +1,26 @@
+.primary-nav {
+
+  &--colored {
+    background-color: $mainColor;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    @mixin clearfix;
+  }
+
+  li {
+    list-style-type: none;
+    float: left;
+    padding: 1.125rem 0;
+  }
+
+  a {
+    color: $linkColor;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 1.125rem;
+    display: block;
+  }
+}

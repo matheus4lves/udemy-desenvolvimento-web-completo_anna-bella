@@ -1,8 +1,9 @@
 @import "normalize.css";
 @import "base/_variables.css";
+@import "base/_mixins.css";
 @import "base/_global.css";
 @import "modules/_wrapper.css";
-@import "modules/_menu.css";
+@import "modules/_primary-nav.css";
 @import "modules/_headline.css";
 @import "modules/_page-section.css";
 @import "modules/_img-campaign.css";
