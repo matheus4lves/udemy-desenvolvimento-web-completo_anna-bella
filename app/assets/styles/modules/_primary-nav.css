@@ -12,15 +12,26 @@
 
   li {
     list-style-type: none;
-    float: left;
-    padding: 1.125rem 0;
+    padding: .25rem 0;
   }
 
   a {
+    text-align: center;
     color: $linkColor;
     text-decoration: none;
     font-weight: bold;
     padding-left: 1.125rem;
     display: block;
+  }
+
+  @mixin atSmall {
+    li {
+      float: left;
+      padding: 1.125rem 0;
+    }
+
+    a {
+      text-align: left;
+    }
   }
 }

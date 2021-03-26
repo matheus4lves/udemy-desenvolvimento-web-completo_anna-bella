@@ -5,3 +5,27 @@
     display: table;
   }
 }
+
+@define-mixin atSmall {
+  @media (min-width: 600px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atMedium {
+  @media (min-width: 768px) {
+    @mixin-content;
+  }
+}
+
+@define-mixn atLarge {
+  @media (min-width: 992px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atExtraLarge {
+  @media (min-width: 1200px) {
+    @mixin-content;
+  }
+}
