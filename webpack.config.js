@@ -35,8 +35,8 @@ module.exports = {
         port: 9001,
         useLocalIp: true,
         open: {
-            app: ['/opt/firefox-84.0b4/firefox/firefox', '--private-window'],
-        },
+            app: ['/opt/firefox-84.0b4/firefox/firefox', '-P web-development', '--private-window']
+        }
     },
 
     module: {
