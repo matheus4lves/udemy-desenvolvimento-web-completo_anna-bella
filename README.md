@@ -67,7 +67,7 @@ Once the dependencies are installed, you can run `npm start` to start the applic
 
 ## Credits
 
-This website is part of the projects developed in the online course **Desenvolvimento Web Completo 2021 - 20 cursos + 20 projetos**, available at [Udemy](https://www.udemy.com/course/web-completo/).
+This website is one of the projects developed in the online course **Desenvolvimento Web Completo 2021 - 20 cursos + 20 projetos**, available at [Udemy](https://www.udemy.com/course/web-completo/).
 
 ## License
 
