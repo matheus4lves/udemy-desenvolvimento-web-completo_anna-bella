@@ -1,6 +1,6 @@
 # Anna Bella Modelo
 
-![The model Anna Bella](app/assets/images/screenshots/home.png)
+![The model Anna Bella](screenshots/home.png)
 
 ## Table of contents
 
