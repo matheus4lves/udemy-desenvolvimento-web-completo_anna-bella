@@ -14,7 +14,7 @@
 
   [Dependencies](#dependencies)
 
-  [DevDependencies](#dev-dependencies)
+  [DevDependencies](#devdependencies)
 
 - [Credits](#credits)
 - [Lincense](#license)
@@ -40,7 +40,7 @@ This project was developed with the intent to promote the practice of the knowle
 
 ![GitHub language count](https://img.shields.io/github/languages/count/matheus4lves/anna-bella?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/matheus4lves/anna-bella?style=flat-square)
 
-### Dependecies
+### Dependencies
 
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/normalize.css?style=flat-square)
 
