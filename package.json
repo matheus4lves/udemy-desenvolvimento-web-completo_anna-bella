@@ -4,15 +4,24 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve"
+    "build": "webpack",
+    "dev": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
     "autoprefixer": "^10.2.4",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "*",
     "css-loader": "^5.1.1",
+    "css-minimizer-webpack-plugin": "^2.0.0",
+    "fs-extra": "^10.0.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
     "postcss": "^8.2.7",
     "postcss-import": "^14.0.1",
     "postcss-loader": "^5.0.0",
