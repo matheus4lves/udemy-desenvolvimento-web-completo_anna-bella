@@ -6,6 +6,7 @@
 
 - [Introduction](#introduction)
 - [Description](#description)
+- [Demo](#demo)
 - [Setup](#setup)
 - [Usage](#usage)
 - [Technical info](#technical-info)
@@ -34,6 +35,10 @@ This project was developed with the intent to promote the practice of the knowle
 [//]: # "## Features"
 [//]: # "## Demo"
 
+## Demo
+
+[Modelo Anna Bella](https://kind-khorana-36270a.netlify.app/)
+
 ## Technical info
 
 ### Languages
@@ -46,7 +51,7 @@ This project was developed with the intent to promote the practice of the knowle
 
 ### DevDependencies
 
-![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/autoprefixer?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/css-loader?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/postcss?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/postcss-import?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/postcss-loader?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/postcss-mixins?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/postcss-nested?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/postcss-simple-vars?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/style-loader?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/webpack?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/webpack-cli?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/webpack-dev-server?style=flat-square)
+![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/@babel/core?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/@babel/preset-env?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/@babel/preset-react?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/autoprefixer?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/babel-loader?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/clean-webpack-plugin?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/css-loader?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/css-minimizer-webpack-plugin?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/fs-extra?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/html-webpack-plugin?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/mini-css-extract-plugin?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/postcss?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/postcss-import?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/postcss-loader?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/postcss-mixins?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/postcss-nested?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/postcss-simple-vars?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/style-loader?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/webpack?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/webpack-cli?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/webpack-cli?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/matheus4lves/anna-bella/dev/webpack-dev-server?style=flat-square)
 
 ## Setup
 
@@ -54,7 +59,7 @@ Clone this repo to your desktop and run `npm install` to install all the depende
 
 ## Usage
 
-Once the dependencies are installed, you can run `npm start` to start the application. You will then be able to access it at localhost:9001
+Once the dependencies are installed, you can run `npm run dev` to start the application. You will then be able to access it at localhost:9001
 
 [//]: # "## Built with"
 
