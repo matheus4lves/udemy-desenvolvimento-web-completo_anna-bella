@@ -9,6 +9,7 @@
 - [Demo](#demo)
 - [Setup](#setup)
 - [Usage](#usage)
+- [To do](#to-do)
 - [Technical info](#technical-info)
 
   [Languages](#languages)
@@ -63,9 +64,8 @@ Once the dependencies are installed, you can run `npm run dev` to start the appl
 
 [//]: # "## Built with"
 
-## To-do
+## To do
 
-- Highlight the link in the header navigation that corresponds with the page that the visitor is currently in;
 - Make the site responsive;
 - Work in small details, like providing a favicon.ico.
 
