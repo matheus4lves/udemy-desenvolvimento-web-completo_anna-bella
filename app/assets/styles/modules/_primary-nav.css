@@ -1,5 +1,4 @@
 .primary-nav {
-
   &--colored {
     background-color: $mainColor;
   }
@@ -12,26 +11,29 @@
 
   li {
     list-style-type: none;
-    padding: .25rem 0;
   }
 
   a {
+    padding: 1.15rem 0.5625rem;
     text-align: center;
     color: $linkColor;
     text-decoration: none;
     font-weight: bold;
-    padding-left: 1.125rem;
     display: block;
   }
 
   @mixin atSmall {
     li {
       float: left;
-      padding: 1.125rem 0;
     }
 
     a {
       text-align: left;
     }
+  }
+
+  .active {
+    color: $mainColor;
+    background-color: $linkColor;
   }
 }
