@@ -1,3 +1,7 @@
 .img-campaign {
   border: 10px solid #c3c3ae;
+
+  @mixin atSmall {
+    max-width: 40rem;
+  }
 }

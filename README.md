@@ -67,7 +67,6 @@ Once the dependencies are installed, you can run `npm run dev` to start the appl
 
 - Highlight the link in the header navigation that corresponds with the page that the visitor is currently in;
 - Make the site responsive;
-- Put it live at with Netlify;
 - Work in small details, like providing a favicon.ico.
 
 ## Credits
