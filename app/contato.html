@@ -14,17 +14,23 @@
   </head>
   <body>
     <div class="wrapper">
-      <img
-        srcset="
-          assets/images/capa-low-res.png   600w,
-          assets/images/capa.png           900w,
-          assets/images/capa-high-res.png 1800w
-        "
-        alt="Anna Bella modelo"
-        alt="Modelo Anna Bella"
-        width="900"
-        height="388"
-      />
+      <picture>
+        <source
+          srcset="
+            assets/images/capa.png           900w,
+            assets/images/capa-high-res.png 1800w
+          "
+          media="(min-width: 600px)"
+        />
+        <img
+          sizes="600px"
+          srcset="
+            assets/images/capa-small.png           640w,
+            assets/images/capa-small-high-res.png 1280w
+          "
+          alt="A picture of Anna Bella posing with her left hand touching her hair"
+        />
+      </picture>
       <nav class="primary-nav primary-nav--colored">
         <ul>
           <li><a class="menu__item" href="index.html">HOME</a></li>
