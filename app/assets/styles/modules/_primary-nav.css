@@ -1,7 +1,5 @@
 .primary-nav {
-  &--colored {
-    background-color: $mainColor;
-  }
+  background-color: $mainColor;
 
   ul {
     margin: 0;

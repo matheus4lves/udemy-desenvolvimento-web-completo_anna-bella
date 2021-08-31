@@ -78,7 +78,7 @@ if (currentTask == "dev") {
     index: "index.html",
     hot: true,
     host: "0.0.0.0",
-    port: 9001,
+    port: 3000,
     useLocalIp: true,
     open: {
       app: [

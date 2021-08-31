@@ -1,4 +1,4 @@
-.img-campaign {
+.campaign-image {
   border: 10px solid #c3c3ae;
 
   @mixin atSmall {
