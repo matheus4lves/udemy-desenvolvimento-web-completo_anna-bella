@@ -1,5 +1,5 @@
 body {
-  background: $backgroundColor url("/assets/images/fundo.png");
+  background: $backgroundColor url("assets/images/fundo.png");
   font-family: Arial, Helvetica, sans-serif;
 }
 

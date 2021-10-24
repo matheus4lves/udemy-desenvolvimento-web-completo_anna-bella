@@ -24,7 +24,10 @@ class RunAfterCompile {
 let cssConfig = {
   test: /\.css$/i,
   use: [
-    "css-loader?url=false",
+    {
+      loader: "css-loader",
+      options: { url: false }
+    },
     {
       loader: "postcss-loader",
       options: { postcssOptions: { plugins: postcssPlugins } },
@@ -51,15 +54,7 @@ let config = {
   plugins: pages,
   module: {
     rules: [
-      // {
-      //   test: /\.html$/i,
-      //   type: "asset/source",
-      // },
       cssConfig,
-      // {
-      //   test: /\.(png|svg|jpg|jpeg|gif)$/i,
-      //   type: "asset/resource",
-      // },
     ],
   },
 };
@@ -71,21 +66,15 @@ if (currentTask == "dev") {
     path: path.resolve(__dirname, "app"),
   };
   config.devServer = {
-    contentBase: path.join(__dirname, "app"),
-    before: function (app, server) {
-      server._watch("./app/**/*.html");
-    },
-    index: "index.html",
+    watchFiles: ["./app/**/*.html"],
     hot: true,
-    host: "0.0.0.0",
+    host: "local-ip",
     port: 3000,
-    useLocalIp: true,
     open: {
-      app: [
-        "/opt/firefox-84.0b4/firefox/firefox",
-        "-P web-development",
-        "--private-window",
-      ],
+      app: {
+        name: "google-chrome",
+        arguments: ["--incognito"]
+      }
     },
   };
   config.mode = "development";
