@@ -76,6 +76,9 @@ if (currentTask == "dev") {
         arguments: ["--incognito"]
       }
     },
+    static: {
+      directory: path.join(__dirname, "app")
+    }
   };
   config.mode = "development";
   // It yields the best quality SourceMaps for development.
